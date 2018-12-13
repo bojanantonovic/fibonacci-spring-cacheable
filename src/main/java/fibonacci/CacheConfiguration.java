@@ -12,6 +12,6 @@ public class CacheConfiguration {
 
     @Bean
     public CacheManager cacheManager() {
-        return new ConcurrentMapCacheManager("fibonacci", "isomery-hydrocarbon", "isomery-hydrocarbon2");
+        return new ConcurrentMapCacheManager("fibonacci");
     }
 }
