@@ -1,6 +1,5 @@
 package fibonacci;
 
-import config.CacheConfiguration;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class Main {
